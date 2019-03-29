@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="entity">
+  <class name="Sugar" table="sugar3">
+    <id column="id" name="id">
+      <generator class="native"/>
+    </id>
+    <property column="commodityId" name="commodityId"/>
+    <property column="commodityName" name="commodityName"/>
+    <property column="manufacter" name="manufacter"/>
+    <property column="place" name="place"/>
+    <property column="productionDate" name="productionDate"/>
+    <property column="weight" name="weight"/>
+    <property column="quantity" name="quantity"/>
+    <property column="price" name="price"/>
+    <property column="batchNumber" name="batchNumber"/>
+    <property column="dateOfEntry" name="dateOfEntry"/>
+    <property column="dateOfOut" name="dateOfOut"/>
+    <property column="remarks" name="remarks"/>  
+  </class>
+</hibernate-mapping>

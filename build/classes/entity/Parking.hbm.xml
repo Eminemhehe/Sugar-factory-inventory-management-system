@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="entity">
+  <class name="Parking" table="parking">
+    <id column="id" name="id">
+      <generator class="native"/>
+    </id>
+    <property column="sequenceId" name="sequenceId"/>
+    <property column="plateNumber" name="plateNumber"/>
+    <property column="ownerName" name="ownerName"/>
+    <property column="idCard" name="idCard"/>
+    <property column="telephone" name="telephone"/>
+    <property column="entrance" name="entrance"/>
+    <property column="exit" name="exit"/>
+    <property column="consumption" name="consumption"/>
+    <property column="balanceOfCard" name="balanceOfCard"/>
+    <property column="remarks" name="remarks"/>
+    
+  </class>
+</hibernate-mapping>
